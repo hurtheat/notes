@@ -236,7 +236,7 @@ public class UserController {
 
 文档界面：
 
-<img src="G:\图片\swagger.jpg" style="zoom:80%;" />
+<img src="images\swagger.jpg" style="zoom:80%;" />
 
 单个接口的界面：
 
