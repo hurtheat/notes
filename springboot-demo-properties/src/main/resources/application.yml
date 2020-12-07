@@ -1,0 +1,16 @@
+user:
+ name1: kyg
+ password: 12344
+
+library:
+  bookShelf: 1号
+  categroy: 文学
+  books:
+    - bookName: 《钢铁是怎么练成的》
+      description: 文学巨作
+
+    - bookName: 《百年孤独》
+      description: 诺贝尔文学奖
+
+    - bookName: 《活着》
+      description: 福贵和老牛
