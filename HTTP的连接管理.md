@@ -6,7 +6,7 @@
 
 
 
-<img src="file:///C:/Users/kyg/Desktop/笔记/短连接示意图.png" title="C:\Users\kyg\Desktop" alt="短连接示意图" data-align="center">
+<img src="images/短连接示意图.png" title="C:\Users\kyg\Desktop" alt="短连接示意图" data-align="center">
 
 ##### 二、长连接
 
