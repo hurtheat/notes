@@ -16,7 +16,7 @@
 
     长连接其实是**成本分摊**的体现，将原有耗时的TCP连接和关闭分摊到过个请求-应答上。
 
-      <img src="file:///C:/Users/kyg/Desktop/笔记/长连接示意图.png" title="optional title" alt="Alternative text" data-align="center">
+      <img src="images/长连接示意图.png" title="optional title" alt="Alternative text" data-align="center">
 
 ##### 三、连接管理在HTTP中的体现
 
