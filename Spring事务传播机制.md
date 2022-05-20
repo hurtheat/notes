@@ -230,7 +230,7 @@ MANDATORY：必须在一个事务中执行，如果没有事务，则抛出异�
 
 结果：调用方法正常执行数据库操作，被调用方法抛出异常，且没有执行数据库操作（异常中断了程序），抛出的异常时因为被调用法必须在事务中执行，没有事务，抛出异常，异常如下：
 
-- ![Alt text](C:\Users\kyg\Desktop\笔记\MANDATORY抛出异常.png "optional title")
+- ![MANDATORY抛出的异常](images/MANDATORY抛出异常.png "MANDATORY抛出的异常")
 
 ###### 六、NEVER
 
@@ -263,7 +263,7 @@ NEVER:以非事务的方式执行，如过存在事务异常
 
 结果：调用方法操作数据库不成功，被调用方法操作数据库不成功。因为被调用方法时NEVER的传播机制，调用方法有事务，被调用方法会抛出异常，导致本身执行不成功，抛出的异常也会导致调用方法的事务回滚，操作不成功。抛出的异常如下：
 
-- ![Alt text](C:\Users\kyg\Desktop\笔记\NEVER抛异常.png "optional title")
+- ![NEVER抛出的异常](images/NEVER抛异常.png "NEVER抛出的异常")
 
 ###### 七、PROPAGATION_NESTED
 
